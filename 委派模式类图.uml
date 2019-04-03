@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>fw.delegate.mvc.ServletDispatcher</OriginalElement>
+  <nodes>
+    <node x="118.08125" y="243.0">fw.delegate.DelegateTest</node>
+    <node x="113.58125" y="162.0">fw.delegate.ChiefDelegate</node>
+    <node x="104.0" y="81.0">fw.delegate.ChiefA</node>
+    <node x="0.0" y="81.0">fw.delegate.ChiefB</node>
+    <node x="0.0" y="319.0">fw.delegate.mvc.TestAction</node>
+    <node x="149.98125" y="0.0">fw.delegate.Chief</node>
+    <node x="128.0" y="319.0">fw.delegate.mvc.Hander</node>
+    <node x="84.19999999999999" y="400.0">fw.delegate.mvc.ServletDispatcher</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="fw.delegate.mvc.ServletDispatcher" target="fw.delegate.mvc.TestAction">
+      <point x="-59.19999999999999" y="-15.5" />
+      <point x="99.0" y="375.0" />
+      <point x="54.0" y="375.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="fw.delegate.DelegateTest" target="fw.delegate.ChiefDelegate">
+      <point x="30.75" y="-15.5" />
+      <point x="32.25" y="15.5" />
+    </edge>
+    <edge source="fw.delegate.ChiefB" target="fw.delegate.Chief">
+      <point x="0.0" y="-15.5" />
+      <point x="42.0" y="51.0" />
+      <point x="157.68124999999998" y="51.0" />
+      <point x="-30.80000000000001" y="15.5" />
+    </edge>
+    <edge source="fw.delegate.ChiefDelegate" target="fw.delegate.ChiefB">
+      <point x="-51.599999999999994" y="-15.5" />
+      <point x="126.48125" y="142.0" />
+      <point x="42.0" y="142.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="fw.delegate.ChiefDelegate" target="fw.delegate.ChiefA">
+      <point x="-25.80000000000001" y="-15.5" />
+      <point x="152.28125" y="142.0" />
+      <point x="147.0" y="142.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="fw.delegate.ChiefA" target="fw.delegate.Chief">
+      <point x="0.0" y="-15.5" />
+      <point x="147.0" y="61.0" />
+      <point x="173.08124999999998" y="61.0" />
+      <point x="-15.400000000000006" y="15.5" />
+    </edge>
+    <edge source="fw.delegate.mvc.ServletDispatcher" target="fw.delegate.mvc.Hander">
+      <point x="-29.59999999999998" y="-15.5" />
+      <point x="128.60000000000002" y="375.0" />
+      <point x="139.25" y="375.0" />
+      <point x="-33.75" y="15.5" />
+    </edge>
+    <edge source="fw.delegate.ChiefDelegate" target="fw.delegate.Chief">
+      <point x="0.0" y="-15.5" />
+      <point x="178.08125" y="132.0" />
+      <point x="200.5" y="132.0" />
+      <point x="200.5" y="61.0" />
+      <point x="188.48125" y="61.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="74.0" y="136.0" />
+  <SelectedNodes>
+    <node>fw.delegate.mvc.ServletDispatcher</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
